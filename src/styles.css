@@ -207,6 +207,9 @@ footer .glyphicon {
   }
 }
 
+@media screen and (max-width: 992px) {
+}
+
 @media screen and (max-width: 892px) {
   .innerThumbnail {
     width: 300px;
@@ -233,6 +236,10 @@ footer .glyphicon {
 }
 
 @media screen and (max-width: 600px) {
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
   .col-sm-4 {
     padding: 0;
   }
